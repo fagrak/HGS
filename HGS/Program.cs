@@ -60,7 +60,8 @@ namespace HGS
                     Console.WriteLine("\n*** HGS List ***");
                     foreach (var hgsno in HGSNo)
                     {
-                        Console.WriteLine("HGS No:{0} Name:{1} Surname:{2} Vehicle Type:{3} Balance:{4}", hgsno.no, hgsno.name, hgsno.surname, hgsno.vehicleType, hgsno.balance);
+                        Console.WriteLine("HGS No:{0} Name:{1} Surname:{2} Vehicle Type:{3} Balance:{4}", 
+                            hgsno.no, hgsno.name, hgsno.surname, hgsno.vehicleType, hgsno.balance);
                     }
                     Console.WriteLine("\nChoose one from above for enter to Pay-desk...\n");
                     key = Convert.ToInt32(Console.ReadLine()) - 1; Console.Clear(); 
